@@ -5,12 +5,14 @@
 html, body{
     margin: 0px;
     height: 100%;
-    overflow-x: hidden;
+    font-family: 'Raleway', sans-serif;
+/*    overflow-x: hidden; esto elimina el espacio pero no me permite hacer el efecto de scroll*/
 }
+
 /*Inicio Section Banner ************************************************/
 #banner{
     background: url(../img/banner-bg.jpg) no-repeat center;
-    background-size: cover;
+    background-size:cover;
     height: 100%;
 }
 .bg-color{
@@ -92,77 +94,25 @@ html, body{
 .about-padding{
     padding: 30px;
 }
-#about p{
+#about h2{
     color: black;
+}
+#about p, h4{
+    color: #3f341e;
 } 
-#about h4{
-    font-family: sis;
+#about p{
+    font-size: 16px;
+    line-height: 1.5em;
 }
 /*Fin Section About*******************************************************************/
 /*Inicio Section Contacto*************************************************************/
 #contact{
     padding: 25px 0;
 }
-.header-contacto {
-    color: #000;
-    font-family: sis;
-}
-.header-contacto-p {
-    color: #000;
-    font-size: 20px;
-    font-family: 'Raleway';
-}
 .margin-maps{
     margin-top: 25px;
 }
 
-.media-body, .media-left, .media-right {
-    display: table-cell;
-    vertical-align: top;
-}
-.contact-icon {
-    color: #fff;
-    position: absolute;
-    left: 34px;
-    font-size: 32px;
-    margin-top: 18px;
-}
-.bg-1 {
-    background-color: #222;
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-}
-.bg-14 {
-    background-color: #222;
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-}
-.dark-blue {
-/*    color: #31364c;*/
-    font-size: 24px;
-    margin-top: 0;
-    color: #222;
-}
-.light-blue {
-    color: #555;
-    font-size: 16px;
-    margin-bottom: 1px;
-}
-.media-body {
-    margin-left: 10px;
-    padding-left: 13px;
-}
-.media-2 {
-    margin-top: 30px;
-}
-.phone-in-talk, .hour-icon
-{
-    font-size: 35px;
-    line-height: 70px;
-    color: rgb(255, 255, 255);
-}
 #map{
     
     height: 25vh;
@@ -191,27 +141,23 @@ html, body{
 .footer a, p{
     color: #fff;
     text-decoration: none;
+    margin: 0;
 }
-.footer .header-footer{
-    font-family: sis, sans-serif;
-    font-size: 64px;
-    color: #FFF;
-    font-weight:normal;
-}
-.footer .widget, .footer address {
+
+.footer address {
     color: #FFF;
     text-transform: none;
     font-style: normal;
-    padding-bottom: 10px;
+    padding: 20px 0 10px 0;
 }
-.footer .navigation, .footer .social-list {
+.footer .social-list {
     float: none;
     margin-bottom: 20px;
 }
 .footer .social-list a {
     font-size: 40px;
     color: #FFF;
-    margin: 10px 7px;
+    margin: 0 7px;
 }
 .ejdp{
     text-shadow: 0 0 1px #fff,
@@ -238,13 +184,18 @@ html, body{
     margin-top: 10vh;
     }
 */
+    #banner{
+    background: url(../img/banner-bg-movil.jpg) no-repeat center;
+    background-size:cover;
+    height: 100%;
+}
 }
 @media (min-width: 20px) and (max-width: 450px) {
-/*
-    .margin-logo-banner{
-    margin-top: 10vh;
-    }
-*/
+    #banner{
+    background: url(../img/banner-bg-movil.jpg) no-repeat center;
+    background-size:cover;
+    height: 100%;
+}
     .sidenav {padding-top: 30px;}
     .sidenav a {font-size: 18px;}
 }
@@ -275,8 +226,5 @@ html, body{
 }
 .bg-gallery{
     background-color: RGBA(0, 0, 0, 0.61);
-}
-
-
 }
 /*FIN GALLERY PAGE*******************************************************/
