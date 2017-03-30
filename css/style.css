@@ -45,7 +45,7 @@ html, body{
     padding-top: 60px;
     transition: 0.5s;
 }
-.sidenav a {
+.sidenav a{
     padding: 2px 2px 2px 25px;
     text-decoration: none;
     font-size: 25px;
@@ -56,6 +56,10 @@ html, body{
 }
 .sidenav a:hover, .offcanvas a:focus{
     color: #fff;
+}
+.sidenav .subitem{
+    padding: 2px 2px 2px 30px;
+    font-size: 18px;
 }
 .sidenav img {
     /*margin-left: 0.90em;*/
@@ -70,7 +74,7 @@ html, body{
 .menu-icon{
     color: #fff;
     font-size: 30px;
-    margin-top: 3vh;
+    margin-top: 5vh;
     cursor: pointer;
     position: fixed;
     z-index: 100;
@@ -184,26 +188,32 @@ html, body{
     margin-top: 10vh;
     }
 */
+/*
     #banner{
     background: url(../img/banner-bg-movil.jpg) no-repeat center;
     background-size:cover;
     height: 100%;
 }
+*/
 }
 @media (min-width: 20px) and (max-width: 450px) {
+/*
     #banner{
     background: url(../img/banner-bg-movil.jpg) no-repeat center;
     background-size:cover;
     height: 100%;
 }
+*/
     .sidenav {padding-top: 30px;}
     .sidenav a {font-size: 18px;}
+    .sidenav .subitem{font-size: 14px;}
 }
+
 @media (orientation: landscape) {
     .carousel-inner > .item > img {
       object-fit: cover;
       height: 400px;
-      height: 95vh;
+      height: 70vh;
       width: 100%;
 }
 }
@@ -214,6 +224,7 @@ html, body{
       height: 50vh;
       width: 100%;
 }
+
 }
 
 /*INICIO GALLERY PAGE***************************************************/
