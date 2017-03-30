@@ -3,17 +3,18 @@
   src: url('../fonts/sis.ttf'), url('../fonts/sis.eot'), url('../fonts/sis.woff'), url('../fonts/sis.woff2'), url('../fonts/sis.svg');
 }
 html, body{
-    margin: 0px;
-    height: 100%;
+    margin: 0;
+/*    height: 100%;*/
     font-family: 'Raleway', sans-serif;
-/*    overflow-x: hidden; esto elimina el espacio pero no me permite hacer el efecto de scroll*/
+    overflow-x: hidden;
+/*    esto elimina el espacio pero no me permite hacer el efecto de scroll*/
 }
-
 /*Inicio Section Banner ************************************************/
 #banner{
     background: url(../img/banner-bg.jpg) no-repeat center;
     background-size:cover;
-    height: 100%;
+    height: 100vh;
+    /*height: 100%;*/
 }
 .bg-color{
     background-color: RGBA(0, 0, 0, 0);
