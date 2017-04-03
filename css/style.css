@@ -25,11 +25,6 @@ html, body{
     font-size: 45px;
     color: #FFF;
 }
-#banner p{
-    font-family: 'PT Sans', sans-serif;
-    color: #fcfcfc;
-    font-size: 34px;
-}
 .margin-logo-banner{
     margin-top: 10vh;
     }
@@ -99,9 +94,7 @@ html, body{
 .about-padding{
     padding: 30px;
 }
-#about h3{
-    color: black;
-}
+
 #about p, h4{
     color: #3f341e;
 } 
@@ -189,22 +182,26 @@ html, body{
     margin-top: 10vh;
     }
 */
+
 /*
     #banner{
     background: url(../img/banner-bg-movil.jpg) no-repeat center;
     background-size:cover;
-    height: 100%;
+    height: 80vh;
 }
 */
+
 }
 @media (min-width: 20px) and (max-width: 450px) {
+
 /*
     #banner{
     background: url(../img/banner-bg-movil.jpg) no-repeat center;
     background-size:cover;
-    height: 100%;
+    height: 80vh;
 }
 */
+
     .sidenav {padding-top: 30px;}
     .sidenav a {font-size: 18px;}
     .sidenav .subitem{font-size: 14px;}
@@ -235,6 +232,9 @@ html, body{
     background-size: cover;
 */
     background-color: #222;
+}
+.logo-galeria{
+    margin-bottom: 0px;
 }
 .bg-gallery{
     background-color: RGBA(0, 0, 0, 0.61);
