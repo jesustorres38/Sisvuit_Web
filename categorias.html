@@ -21,7 +21,7 @@
                   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><strong>&times;</strong></a>
                   <a href="index.html"><strong>INICIO</strong></a>
                   <a id="link" href="#about"><strong>GALERIA</strong></a>
-                  <a id="link" href="#" class="subitem"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> SALA DELS 70</a>
+<!--                  <a id="link" href="#" class="subitem"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> SALA DELS 70</a>-->
                   <a id="link" href="#contact"><strong>CONTACTO</strong></a>
                   <a id="link" href="#"><img class="responsive" src="img/es.png"></a>
                   <a id="link" href="#"><img class="responsive" src="img/en.png"></a>
@@ -49,76 +49,33 @@
                 </div>
                 <div class="col-md-12 col-md-offset-0">
                     <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center about-padding">
-                        <img src="img/cat-llum.jpg" alt="" class="center-block img-responsive img-circle">
+                        <img data-toggle="modal" data-target="#llum" src="img/cat-llum.jpg" alt="" class="center-block img-responsive img-circle">
                         <h3>SALA DE LA LLUM</h3>
                     </div>
                     <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center about-padding">
-                        <img src="img/cat-miralls.jpg" alt="" class="center-block img-responsive img-circle">
+                        <img data-toggle="modal" data-target="#miralls" src="img/cat-miralls.jpg" alt="" class="center-block img-responsive img-circle">
                         <h3>SALA DELS MIRALLS</h3>
                     </div>
                     <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center about-padding">
-                        <img src="img/cat-temps.jpg" alt="" class="center-block img-responsive img-circle">
+                        <img data-toggle="modal" data-target="#temps" src="img/cat-temps.jpg" alt="" class="center-block img-responsive img-circle">
                         <h3>SALA DEL TEMPS</h3>
                     </div>
                 </div>
                 <div class="col-md-12 col-md-offset-0">
                     <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center about-padding">
-                        <img data-toggle="modal" data-target=".bs-example-modal-lg" src="img/cat-70.jpg" alt="" class="center-block img-responsive img-circle">
+                        <img data-toggle="modal" data-target="#70" src="img/cat-70.jpg" alt="" class="center-block img-responsive img-circle">
                         <h3>SALA DELS 70</h3>
                     </div>
                     <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center about-padding">
-                        <img src="img/cat-terrasa.jpg" alt="" class="center-block img-responsive img-circle">
+                        <img data-toggle="modal" data-target="#terrasa" src="img/cat-terrasa.jpg" alt="" class="center-block img-responsive img-circle">
                         <h3>TERRASA</h3>
                     </div>
                     <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center about-padding">
-                        <img src="img/cat-productos.jpg" alt="" class="center-block img-responsive img-circle">
+                        <img data-toggle="modal" data-target="#productos" src="img/cat-productos.jpg" alt="" class="center-block img-responsive img-circle">
                         <h3>NUESTROS PRODUCTOS</h3>
                     </div>
                 </div>
-<!-- Modal---------------------------------------------------------->
-                <div class="container text-center">
-                    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                      <div class="modal-dialog modal-lg">
-                        <div class="modal-content">
-                              <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                <h4><em>SALA DE LA LLUM</em></h4> 
-                              </div>
-                              <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                                  <div class="carousel-inner">
-                                    <div class="item active">
-                                     <img class="center-block img-responsive" src="img/g1.jpg" alt="...">
-                                      <div class="carousel-caption">
-                                        One Image
-                                      </div>
-                                    </div>
-                                    <div class="item">
-                                      <img class="center-block img-responsive" src="img/g2.jpg" alt="...">
-                                      <div class="carousel-caption">
-                                        Another Image
-                                      </div>
-                                    </div>
-                                     <div class="item">
-                                      <img class="center-block img-responsive" src="img/g3.jpg" alt="...">
-                                      <div class="carousel-caption">
-                                        Another Image
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                                    <span class="glyphicon glyphicon-chevron-left"></span>
-                                  </a>
-                                  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                                    <span class="glyphicon glyphicon-chevron-right"></span>
-                                  </a>
-                             </div>
-                              <div class="modal-footer">
-                              </div>
-                        </div>
-                      </div>
-                    </div>
-                </div>
-<!-- Modal---------------------------------------------------------->
+
             </div><!--FIN ROW -->
             <div class="row"  id="contact">
                 <div class="col-md-12 text-center">
@@ -128,8 +85,289 @@
             </div>
         </div> <!--FIN Container -->
     </section><!--/ FIN about-->
+      
+<!-- Modals---------------------------------------------------------->
+    <div class="container text-center">
+        <div id="llum" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+<!--
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4><em>SALA DE LA LLUM</em></h4> 
+                  </div>
+-->
+                  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="item active">
+                         <img class="center-block img-responsive" src="img/llum/001_DSC_1277_72.jpg" alt="...">
+                          <div class="carousel-caption">
+                            One Image
+                          </div>
+                        </div>
+                        <div class="item">
+                          <img class="center-block img-responsive" src="img/llum/002_DSC_1278_72.jpg" alt="...">
+                          <div class="carousel-caption">
+                            Another Image
+                          </div>
+                        </div>
+                         <div class="item">
+                          <img class="center-block img-responsive" src="img/llum/003_DSC_1323_1_1.jpg" alt="...">
+                          <div class="carousel-caption">
+                            Another Image
+                          </div>
+                        </div>
+                      </div>
+                      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                      </a>
+                      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                      </a>
+                 </div>
+<!--
+                  <div class="modal-footer">
+                  </div>
+-->
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="container text-center">
+        <div id="miralls" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+<!--
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4><em>SALA DELS MIRALLS</em></h4> 
+                  </div>
+-->
+                  <div id="carousel-example-generic2" class="carousel slide" data-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="item active">
+                         <img class="center-block img-responsive" src="img/espejos/001_DSC_0007_72.jpg" alt="...">
+                          <div class="carousel-caption">
+                            One Image
+                          </div>
+                        </div>
+                        <div class="item">
+                          <img class="center-block img-responsive" src="img/espejos/002_DSC_0003_72.jpg" alt="...">
+                          <div class="carousel-caption">
+                            Another Image
+                          </div>
+                        </div>
+                         <div class="item">
+                          <img class="center-block img-responsive" src="img/espejos/003_ELL9766_72.jpg" alt="...">
+                          <div class="carousel-caption">
+                            Another Image
+                          </div>
+                        </div>
+                      </div>
+                      <a class="left carousel-control" href="#carousel-example-generic2" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                      </a>
+                      <a class="right carousel-control" href="#carousel-example-generic2" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                      </a>
+                 </div>
+<!--
+                  <div class="modal-footer">
+                  </div>
+-->
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="container text-center">
+        <div id="temps" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+<!--
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4><em>SALA DEL TEMPS</em></h4> 
+                  </div>
+-->
+                  <div id="carousel-example-generic3" class="carousel slide" data-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="item active">
+                         <img class="center-block img-responsive" src="img/temps/001_DSC_1262_72.jpg" alt="...">
+                          <div class="carousel-caption">
+                            One Image
+                          </div>
+                        </div>
+                        <div class="item">
+                          <img class="center-block img-responsive" src="img/temps/002_DSC_1261_72.jpg" alt="...">
+                          <div class="carousel-caption">
+                            Another Image
+                          </div>
+                        </div>
+                         <div class="item">
+                          <img class="center-block img-responsive" src="img/temps/003_DSC_0674_72.jpg" alt="...">
+                          <div class="carousel-caption">
+                            Another Image
+                          </div>
+                        </div>
+                      </div>
+                      <a class="left carousel-control" href="#carousel-example-generic3" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                      </a>
+                      <a class="right carousel-control" href="#carousel-example-generic3" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                      </a>
+                 </div>
+<!--
+                  <div class="modal-footer">
+                  </div>
+-->
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="container text-center">
+        <div id="70" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+<!--
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4><em>SALA DELS 70</em></h4> 
+                  </div>
+-->
+                  <div id="carousel-example-generic4" class="carousel slide" data-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="item active">
+                         <img class="center-block img-responsive" src="img/70/001_DSC_0731_72.jpg" alt="...">
+                          <div class="carousel-caption">
+                            One Image
+                          </div>
+                        </div>
+                        <div class="item">
+                          <img class="center-block img-responsive" src="img/70/002_20161208_135120_72.jpg" alt="...">
+                          <div class="carousel-caption">
+                            Another Image
+                          </div>
+                        </div>
+                         <div class="item">
+                          <img class="center-block img-responsive" src="img/70/003_DSC_0944_72.jpg" alt="...">
+                          <div class="carousel-caption">
+                            Another Image
+                          </div>
+                        </div>
+                      </div>
+                      <a class="left carousel-control" href="#carousel-example-generic4" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                      </a>
+                      <a class="right carousel-control" href="#carousel-example-generic4" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                      </a>
+                 </div>
+<!--
+                  <div class="modal-footer">
+                  </div>
+-->
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="container text-center">
+        <div id="terrasa" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+<!--
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4><em>TERRASA</em></h4> 
+                  </div>
+-->
+                  <div id="carousel-example-generic5" class="carousel slide" data-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="item active">
+                         <img class="center-block img-responsive" src="img/terrasa/001_ELL9808_75.jpg" alt="...">
+                          <div class="carousel-caption">
+                            One Image
+                          </div>
+                        </div>
+                        <div class="item">
+                          <img class="center-block img-responsive" src="img/terrasa/002_DSC_1373_72.jpg" alt="...">
+                          <div class="carousel-caption">
+                            Another Image
+                          </div>
+                        </div>
+                         <div class="item">
+                          <img class="center-block img-responsive" src="img/terrasa/004_DSC_1772_72.jpg" alt="...">
+                          <div class="carousel-caption">
+                            Another Image
+                          </div>
+                        </div>
+                      </div>
+                      <a class="left carousel-control" href="#carousel-example-generic5" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                      </a>
+                      <a class="right carousel-control" href="#carousel-example-generic5" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                      </a>
+                 </div>
+<!--
+                  <div class="modal-footer">
+                  </div>
+-->
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="container text-center">
+        <div id="productos" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+<!--
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4><em>NUESTROS PRODUCTOS</em></h4> 
+                  </div>
+-->
+                  <div id="carousel-example-generic6" class="carousel slide" data-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="item active">
+                         <img class="center-block img-responsive" src="img/about-1.jpg" alt="...">
+                          <div class="carousel-caption">
+                            One Image
+                          </div>
+                        </div>
+                        <div class="item">
+                          <img class="center-block img-responsive" src="img/about-2.jpg" alt="...">
+                          <div class="carousel-caption">
+                            Another Image
+                          </div>
+                        </div>
+                         <div class="item">
+                          <img class="center-block img-responsive" src="img/about-3.jpg" alt="...">
+                          <div class="carousel-caption">
+                            Another Image
+                          </div>
+                        </div>
+                      </div>
+                      <a class="left carousel-control" href="#carousel-example-generic6" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                      </a>
+                      <a class="right carousel-control" href="#carousel-example-generic6" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                      </a>
+                 </div>
+<!--
+                  <div class="modal-footer">
+                  </div>
+-->
+            </div>
+          </div>
+        </div>
+    </div>
     
-    <!-- footer  -->
+    
+<!-- Modals---------------------------------------------------------->
+
+<!-- footer  -->
     <footer class="footer text-center">
             <div class="row">
                 <div class="col-md-4 col-md-offset-4 text-center">
@@ -150,11 +388,13 @@
                 </div>
             </div>
     </footer>
-    <!-- / footer -->
+<!-- / footer -->
+      
+      
+      
     <script src="js/jquery.min.js"></script>
-<!--    <script src="js/jquery.easing.min.js"></script>-->
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.mixitup.min.js"></script>
+    <script src="js/jquery2.min.js"></script>
     <script src="js/custom.js"></script>
 </body>
 </html>
