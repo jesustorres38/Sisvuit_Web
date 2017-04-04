@@ -11,7 +11,7 @@ html, body{
 }
 /*Inicio Section Banner ************************************************/
 #banner{
-    background: url(../img/banner-bg.jpg) no-repeat center;
+    background: url(../img/banner-bg.jpg) no-repeat fixed center;
     background-size:cover;
     height: 100vh;
     /*height: 100%;*/
@@ -192,7 +192,7 @@ html, body{
 @media (min-width: 20px) and (max-width: 450px) {
 
     #banner{
-    background: url(../img/banner-bg-movil.jpg) no-repeat center;
+    background: url(../img/banner-bg-movil.jpg) no-repeat fixed center;
     background-size:cover;
     height: 80vh;
 }
@@ -208,7 +208,7 @@ html, body{
 /*      height: 400px;*/
       height: 80vh;
       width: 100%;
-      background: url(../img/about-bg-alternative.jpg) no-repeat center;
+      background: url(../img/about-bg-alternative.jpg) no-repeat fixed center;
 }
 }
 @media (orientation: portrait) {
