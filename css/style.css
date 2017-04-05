@@ -39,6 +39,7 @@ html, body{
     background-color: #222;
     overflow-x: hidden;
     padding-top: 60px;
+    padding-top: 10vh;
     transition: 0.5s;
 }
 .sidenav a{
@@ -53,12 +54,13 @@ html, body{
 .sidenav a:hover, .offcanvas a:focus{
     color: #fff;
 }
-.sidenav .subitem{
-    padding: 2px 2px 2px 30px;
-    font-size: 18px;
+.sidenav span {
+    padding-left: 25px;
 }
-.sidenav img {
-    /*margin-left: 0.90em;*/
+.sidenav #lang{
+    display: inline;
+    padding: 2px 0px;
+    font-size: 23px;
 }
 .closebtn {
     position: absolute;
@@ -197,9 +199,11 @@ html, body{
     height: 80vh;
 }
 
-    .sidenav {padding-top: 30px;}
-    .sidenav a {font-size: 18px;}
-    .sidenav .subitem{font-size: 14px;}
+/*
+    .sidenav {padding-top: 60px;}
+    .sidenav a {font-size: 20px;}
+    .sidenav #lang{font-size: 18px;}
+*/
 }
 
 @media (orientation: landscape) {
