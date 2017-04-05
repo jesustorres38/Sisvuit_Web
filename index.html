@@ -71,7 +71,6 @@
                         <p>Ven a hacer un viaje en  el tiempo o un taller  de coctelería</p>
                     </div>
                 </div>
-                
             </div>
 <!-- contact -->
             <div class="row"  id="contact">
@@ -79,13 +78,14 @@
                     <h3>CONTACTO</h3>
                     <p>Consulta nuestro horario y pasa a visitarnos! <br><strong>T. +34 936252384 - 608643863</strong><br> Sisvuit@sisvuit.com</p>
                     <a style="color: black; text-decoration: none;" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                    <strong>Consulta aqui!</strong>
-                    </a>
+                    <strong>Opcion 1</strong></a>
+                    <br>
+                    <a style="color: black; text-decoration: none;" id="popover" data-toggle="popover" title="Horario" data-content="De tal a tal hora"><strong>Opcion 2</strong></a>
+                    <br>
+                    <a style="color: black; text-decoration: none;" data-toggle="tooltip" data-placement="right" title="Tooltip on right"><strong>Opcion 3</strong></a>
                     
                     <div class="collapse" id="collapseExample">
-                    <div class="">
-                     <p>Mon-Fri: 10am - 10pm <br> Sat-Sun: 09am - 11pm</p>
-                    </div>
+                    <div class=""><p>Mon-Fri: 10am - 10pm <br> Sat-Sun: 09am - 11pm</p></div>
                     </div>
                 </div>
             </div>   
@@ -130,6 +130,14 @@
                 $("#map").removeClass("estilomapa");
             });
         });
+    </script>
+    <script>
+    $(document).ready(function(){
+        $('[data-toggle="popover"]').popover(); 
+    });
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
     </script>
 </body>
 </html>
