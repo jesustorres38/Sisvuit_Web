@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Sisvuit Restaurant Bar Sisvuit.com">
     <meta name="keywords" content="Restaurante Sisvuit, Bar Sisvuit, La Garriga, Sisvuit, Restaurante Bar Sisvuit">
-    <title>Sisvuit</title>
+    <title>Sisvuit - Galeria</title>
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
@@ -23,8 +23,8 @@
                   <a id="link" href="#"><strong>SIS VUIT</strong></a>
                   <a id="link" href="#"><strong>GALERIA</strong></a>
                   <a id="link" href="#"><strong>CARTA</strong></a>
-                  <a id="link" href="#"><strong>ACTIVIDADES</strong></a>
-                  <a id="link" href="#contact"><strong>CONTACTO</strong></a>
+                  <a href="actividades.html"><strong>ACTIVIDADES</strong></a>
+                  <a id="link" href="#contacto"><strong>CONTACTO</strong></a>
                   <span><a id="lang">Esp</a><a id="lang">/Eng</a><a id="lang">/Cat</a></span>
                 </div>
                 <span onclick="openNav()" class="menu-icon" id="menu-icon">☰</span>
@@ -41,49 +41,54 @@
     </section>
     <!-- / banner -->
     <!--about-->
-    <section id="about">
+    <section id="about">      
         <div class="container ">
             <div class="row">
-                <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-12 col-xs-offset-0 text-center logo-galeria">
+                <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-12 col-xs-offset-0 text-center">
                     <img src="img/logo-gallery.png" class="img-responsive center-block">
-                    <i id="preload" class="fa fa-spinner fa-pulse fa-3x fa-fw"></i>
+                    <i id="preload" style="margin-top:50px" class="fa fa-spinner fa-pulse fa-3x fa-fw"></i>
                 </div>
-                <div id="cate" style="display:none" class="col-md-12 col-md-offset-0">
+                <div id="cate" style="visibility: hidden" class="col-md-12 col-md-offset-0">
                     <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center about-padding">
                         <img data-toggle="modal" data-target="#llum" src="img/cat-llum.jpg" alt="" class="center-block img-responsive img-circle">
-                        <h3>SALA DE LA LLUM</h3>
+                        <h3><strong>SALA DE LA LLUM</strong></h3>
                     </div>
                     <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center about-padding">
                         <img data-toggle="modal" data-target="#miralls" src="img/cat-miralls.jpg" alt="" class="center-block img-responsive img-circle">
-                        <h3>SALA DELS MIRALLS</h3>
+                        <h3><strong>SALA DELS MIRALLS</strong></h3>
                     </div>
                     <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center about-padding">
                         <img data-toggle="modal" data-target="#temps" src="img/cat-temps.jpg" alt="" class="center-block img-responsive img-circle">
-                        <h3>SALA DEL TEMPS</h3>
+                        <h3><strong>SALA DEL TEMPS</strong></h3>
                     </div>
                 </div>
-                <div id="cate2" style="display:none" class="col-md-12 col-md-offset-0">
+                <div id="cate2" style="visibility: hidden" class="col-md-12 col-md-offset-0">
                     <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center about-padding">
                         <img data-toggle="modal" data-target="#70" src="img/cat-70.jpg" alt="" class="center-block img-responsive img-circle">
-                        <h3>SALA DELS 70</h3>
+                        <h3><strong>SALA DELS 70</strong></h3>
                     </div>
                     <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center about-padding">
                         <img data-toggle="modal" data-target="#terrasa" src="img/cat-terrasa.jpg" alt="" class="center-block img-responsive img-circle">
-                        <h3>TERRASA</h3>
+                        <h3><strong>TERRASA</strong></h3>
                     </div>
                     <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center about-padding">
                         <img data-toggle="modal" data-target="#productos" src="img/cat-productos.jpg" alt="" class="center-block img-responsive img-circle">
-                        <h3>NUESTROS PRODUCTOS</h3>
+                        <h3><strong>NUESTROS PRODUCTOS</strong></h3>
                     </div>
                 </div>
-
             </div><!--FIN ROW -->
-            <div class="row"  id="contact">
+    <!-- contact -->
+            <div class="row"  id="contacto">
                 <div class="col-md-12 text-center">
-                    <h3>CONTACTO</h3>
-                    <p>Consulta nuestro horario y pasa a visitarnos! <br> T. +34 936252384 - 608643863 <br> Sisvuit@sisvuit.com</p>
+                    <h3><strong>CONTACTO</strong></h3>
+                    <p>Consulta nuestro horario <a style="color: black; text-decoration: none;" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    <strong>Aqui!</strong></a> y pasa a visitarnos! <br><strong>T. +34 936252384 - 608643863</strong><br> Sisvuit@sisvuit.com</p>
+                    <div class="collapse" id="collapseExample">
+                    <div class=""><hr class="separador"><p>Mon-Fri: 10am - 10pm <br> Sat-Sun: 09am - 11pm</p></div>
+                    </div>
                 </div>
-            </div>
+            </div>   
+    <!-- / contact -->
         </div> <!--FIN Container -->
     </section><!--/ FIN about-->
       
@@ -262,11 +267,11 @@
 <!-- footer  -->
     <footer class="footer text-center">
             <div class="row">
-                <div class="col-md-4 col-md-offset-4 text-center">
-                    <div class="col-md-8 col-md-offset-2 text-center">
+                <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12 col-xs-offset-0  text-center">
+                    <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-12 col-xs-offset-0 text-center">
                         <img src="img/logo-footer.png" class="img-responsive">
                     </div>
-                    <div class="col-md-12 col-md-offset-0 text-center">
+                    <div class="col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
                         <address>Carrer de la Doma, 14, 08530<br>La Garriga, Barcelona</address>
                         <div class="social-list">
                             <a href="https://www.instagram.com/sisvuit/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
@@ -280,16 +285,17 @@
                 </div>
             </div>
     </footer>
-<!-- / footer -->      
+<!-- / footer -->     
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery2.min.js"></script>
     <script src="js/custom.js"></script>
     <script>
-        $(document).ready(function(){
-            $("#preload").css("display","none");
-            $("#cate").css("display","initial"); 
-            $("#cate2").css("display","initial"); 
+        //mostramos las categorias cuando las imagenes se hayan cargado
+        $(window).load(function(){
+                $("#preload").css("display","none");
+                $("#cate").css("visibility","visible");
+                $("#cate2").css("visibility","visible");
         });  
     </script>
 </body>

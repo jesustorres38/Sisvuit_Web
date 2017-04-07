@@ -39,11 +39,11 @@ html, body{
     background-color: #222;
     overflow-x: hidden;
     padding-top: 60px;
-    padding-top: 10vh;
+    padding-top: 8vh;
     transition: 0.5s;
 }
 .sidenav a{
-    padding: 2px 2px 2px 25px;
+    padding: 4px 2px 2px 25px;
     text-decoration: none;
     font-size: 25px;
     color: #818181;
@@ -60,7 +60,7 @@ html, body{
 .sidenav #lang{
     display: inline;
     padding: 2px 0px;
-    font-size: 23px;
+    font-size: 20px;
 }
 .closebtn {
     position: absolute;
@@ -89,7 +89,7 @@ html, body{
 #about{
     background: url(../img/about-bg.jpg) no-repeat center;
     background-size: cover;
-    padding: 20px;
+    padding: 50px 0;
     font-family: 'Raleway', sans-serif;
     background-color:#eee;
 }
@@ -105,8 +105,16 @@ html, body{
 }
 /*Fin Section About*******************************************************************/
 /*Inicio Section Contacto*************************************************************/
-#contact{
-    padding: 25px 0;
+#contacto{
+    padding-top: 50px;
+}
+/*este es el separador del horario*/
+.separador{
+    width: 25%;
+    width: 25vw;
+}
+#contacto .margin-top{
+    margin-top: 50px;
 }
 .margin-maps{
     margin-top: 25px;
@@ -125,10 +133,6 @@ html, body{
         visibility: hidden;
     }
 /*Fin Section Contacto ***************************************/
-
-
-
-
 /*INICIO FOOTER SECTION ***************************************/
 .footer {
     width: 100%;
@@ -164,26 +168,12 @@ html, body{
 }
 /*FIN FOOTER SECTION *******************************************/
 @media (min-width: 981px) and (max-width: 2000px) {
-/*
-    .margin-logo-banner{
-    margin-top: 10vh;
-    }
-*/
+
 }
 @media (min-width: 768px) and (max-width: 980px) {
-/*
-    .margin-logo-banner{
-    margin-top: 10vh;
-    }
-*/
+
 }
 @media (min-width: 451px) and (max-width: 767px) {
-/*
-    .margin-logo-banner{
-    margin-top: 10vh;
-    }
-*/
-
     #banner{
     background: url(../img/banner-bg-movil.jpg) no-repeat center;
     background-size:cover;
@@ -192,34 +182,24 @@ html, body{
 
 }
 @media (min-width: 20px) and (max-width: 450px) {
-
     #banner{
     background: url(../img/banner-bg-movil.jpg) no-repeat center;
     background-size:cover;
     height: 80vh;
+    }
 }
-
-/*
-    .sidenav {padding-top: 60px;}
-    .sidenav a {font-size: 20px;}
-    .sidenav #lang{font-size: 18px;}
-*/
-}
-
 @media (orientation: landscape) {
-
     .carousel-inner {
       background-image: url(../img/about-bg-alternative.jpg);
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
     }
-
     .carousel-inner > .item > img {
       object-fit: scale-down;
       height: 80vh;
       width: 100%;
-}
+    }
 }
 @media (orientation: portrait) {
     .carousel-inner {
@@ -228,28 +208,9 @@ html, body{
       background-size: cover;
       background-repeat: no-repeat;
     }
-    
     .carousel-inner > .item > img {
       object-fit: scale-down;
       height: 50vh;
       width: 100%;
-      
+      }
 }
-
-}
-
-/*INICIO GALLERY PAGE***************************************************/
-#banner-gallery{
-/*
-    background: url(../img/banner-bg-gallery.jpg) no-repeat center;
-    background-size: cover;
-*/
-    background-color: #222;
-}
-.logo-galeria{
-    margin-bottom: 0px;
-}
-.bg-gallery{
-    background-color: RGBA(0, 0, 0, 0.61);
-}
-/*FIN GALLERY PAGE*******************************************************/
