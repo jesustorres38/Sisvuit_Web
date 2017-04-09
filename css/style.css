@@ -11,9 +11,11 @@ html, body{
 }
 /*Inicio Section Banner ************************************************/
 #banner{
-    background: url(../img/banner-bg.jpg) no-repeat center;
-    background-size:cover;
-    height: 100vh;
+    background: url(../img/banner-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
     /*height: 100%;*/
 }
 .bg-color{
