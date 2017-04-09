@@ -177,7 +177,7 @@ html, body{
     #banner{
     background: url(../img/banner-bg-movil.jpg) no-repeat center;
     background-size:cover;
-    height: 80vh;
+    height: 100vh;
 }
 
 }
@@ -185,7 +185,7 @@ html, body{
     #banner{
     background: url(../img/banner-bg-movil.jpg) no-repeat center;
     background-size:cover;
-    height: 80vh;
+    height: 100vh;
     }
 }
 @media (orientation: landscape) {
