@@ -121,16 +121,13 @@ html, body{
 .margin-maps{
     margin-top: 25px;
 }
-
 #map{
-    
     height: 25vh;
     height: 250px;
 }
 .estilomapa {
             pointer-events: none;
         }
-
 .ocultar{
         visibility: hidden;
     }
@@ -181,7 +178,6 @@ html, body{
     background-size:cover;
     height: 100vh;
 }
-
 }
 @media (min-width: 20px) and (max-width: 450px) {
     #banner{
@@ -191,12 +187,14 @@ html, body{
     }
 }
 @media (orientation: landscape) {
+/*
     .carousel-inner {
       background-image: url(../img/about-bg-alternative.jpg);
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
     }
+*/
     .carousel-inner > .item > img {
       object-fit: scale-down;
       height: 80vh;
@@ -204,12 +202,6 @@ html, body{
     }
 }
 @media (orientation: portrait) {
-    .carousel-inner {
-      background-image: url(../img/about-bg-alternative.jpg);
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-    }
     .carousel-inner > .item > img {
       object-fit: scale-down;
       height: 50vh;

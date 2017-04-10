@@ -5895,6 +5895,12 @@ button.close {
 .modal-content {
   position: relative;
   background-color: #fff;
+    
+  background-image: url(../img/about-bg-alternative.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+    
   -webkit-background-clip: padding-box;
           background-clip: padding-box;
   border: 1px solid #999;
@@ -5923,7 +5929,7 @@ button.close {
 }
 .modal-header {
   padding: 15px;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #3f341e;
 }
 .modal-header .close {
   margin-top: -2px;
@@ -5939,7 +5945,7 @@ button.close {
 .modal-footer {
   padding: 15px;
   text-align: right;
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid #3f341e;
 }
 .modal-footer .btn + .btn {
   margin-bottom: 0;
