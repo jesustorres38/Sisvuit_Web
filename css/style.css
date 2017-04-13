@@ -4,10 +4,8 @@
 }
 html, body{
     margin: 0;
-/*    height: 100%;*/
     font-family: 'Raleway', sans-serif;
     overflow-x: hidden;
-/*    esto elimina el espacio pero no me permite hacer el efecto de scroll*/
 }
 /*Inicio Section Banner ************************************************/
 #banner{
@@ -16,7 +14,7 @@ html, body{
     background-size: cover;
     background-repeat: no-repeat;
     height: 50vh;
-    /*height: 100%;*/
+    /*height: 100%; esto generaba un problema con overflow-x por eso uso 50vh*/
 }
 .bg-color{
     background-color: RGBA(0, 0, 0, 0);
@@ -57,7 +55,7 @@ html, body{
     color: #fff;
 }
 .sidenav span {
-    padding-left: 25px;
+    padding-left: 27px;
 }
 .sidenav #lang{
     display: inline;

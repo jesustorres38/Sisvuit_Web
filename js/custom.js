@@ -14,7 +14,6 @@ function captura_click() {
 function openNav() {
     document.getElementById("mySidenav").style.width = "225px";
     document.getElementById("menu-icon").classList.add("ocultar");
-//    console.log(document.onclick);
     test = "abierto";
 }
 function closeNav() {
