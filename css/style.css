@@ -163,7 +163,30 @@ html, body{
     text-shadow: 0 0 1px #fff,
         0 0 2px #fff;
 }
+
 /*FIN FOOTER SECTION *******************************************/
+/*GALERIA*******************************************************/
+.carousel-close {
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  right: 0;
+  margin-top: 30px;
+  margin-right: 30px;
+  font-size: 23px;
+  z-index: 5;
+  padding: 0;
+  background: transparent;
+  border: 0;
+}
+.carousel-close:hover,
+.carousel-close:focus {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: .5;
+}
+/*FIN GALERIA***************************************************/
 @media (min-width: 981px) and (max-width: 2000px) {
 
 }
