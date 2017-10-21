@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Sisvuit Restaurant Bar Sisvuit.com">
+    <meta name="keywords" content="Restaurante Sisvuit, Bar Sisvuit, La Garriga, Sisvuit, Restaurante Bar Sisvuit">
+    <title>Sisvuit - Galeria</title>
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+<!--about-->
+    <div>
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><strong>&times;</strong></a>
+          <a href="index.html"><strong>INICIO</strong></a>
+          <a href="index.html#about"><strong>SIS VUIT</strong></a>
+          <a id="link" href="#about"><strong>GALERIA</strong></a>
+          <a href="web/viewer.html?file=carta.pdf"><strong>CARTA</strong></a>
+          <a href="actividades.html"><strong>ACTIVIDADES</strong></a>
+          <a id="link" href="#contacto"><strong>CONTACTO</strong></a>
+          <span><a id="lang" href="#">Esp</a><a id="lang" href="eng/eng.html">/Eng</a><a id="lang" href="cat/cat.html">/Cat</a></span>
+        </div>
+        <span onclick="openNav()" class="menu-icon" id="menu-icon">☰</span>
+    </div>
+    <section id="about">      
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-12 col-xs-offset-0 text-center">
+                    <img src="img/logo-gallery.png" class="img-responsive center-block">
+                    <i id="preload" style="margin-top:50px" class="fa fa-spinner fa-pulse fa-3x fa-fw"></i>
+                </div>
+                <div id="cate" style="visibility: hidden" class="col-md-12 col-md-offset-0">
+                    <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center about-padding">
+                        <img data-toggle="modal" data-target="#llum" src="img/cat-llum.jpg" alt="" class="center-block img-responsive img-circle">
+                        <h3><strong>SALA DE LA LLUM</strong></h3>
+                    </div>
+                    <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center about-padding">
+                        <img data-toggle="modal" data-target="#miralls" src="img/cat-miralls.jpg" alt="" class="center-block img-responsive img-circle">
+                        <h3><strong>SALA DELS MIRALLS</strong></h3>
+                    </div>
+                    <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center about-padding">
+                        <img data-toggle="modal" data-target="#temps" src="img/cat-temps.jpg" alt="" class="center-block img-responsive img-circle">
+                        <h3><strong>SALA DEL TEMPS</strong></h3>
+                    </div>
+                </div>
+                <div id="cate2" style="visibility: hidden" class="col-md-12 col-md-offset-0">
+                    <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center about-padding">
+                        <img data-toggle="modal" data-target="#70" src="img/cat-70.jpg" alt="" class="center-block img-responsive img-circle">
+                        <h3><strong>SALA DELS 70</strong></h3>
+                    </div>
+                    <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center about-padding">
+                        <img data-toggle="modal" data-target="#terrasa" src="img/cat-terrasa.jpg" alt="" class="center-block img-responsive img-circle">
+                        <h3><strong>TERRASA</strong></h3>
+                    </div>
+                    <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center about-padding">
+                        <img data-toggle="modal" data-target="#productos" src="img/cat-productos.jpg" alt="" class="center-block img-responsive img-circle">
+                        <h3><strong>NUESTROS PRODUCTOS</strong></h3>
+                    </div>
+                </div>
+            </div>
+    <!-- contact -->
+            <div class="row"  id="contacto">
+                <div class="col-md-12 text-center">
+                    <h3><strong>CONTACTO</strong></h3>
+                    <p><strong>Direcci&oacute;n:</strong> Carrer de la Doma, 14, 08530 - La Garriga, Barcelona</p>
+                    <p><strong>Telf:</strong> +34 936252384 - 608643863</p>
+                    <p><strong>Correo:</strong> Sisvuit@sisvuit.com</p>
+<!--                    <p><strong>Horario:</strong> Lun-Mie-Jue (19:00-0:00) / Vie (19:00-3:00)<br>Sab (12:00-3:00) / Dom (12:00-0:00)<br>Martes (Cerrado)</p>-->
+                </div>
+            </div>   
+    <!-- / contact -->
+        </div> 
+    </section>
+<!--/ FIN about-->
+      
+<!-- Modals---------------------------------------------------------->
+    <!--Modal LLum  -->
+    <div class="container text-center">
+        <div id="llum" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+<!--
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4><em>SALA DE LA LLUM</em></h4> 
+                  </div>
+-->              
+                <!--este es el boton para cerrar el modal pero a nany no le gusto-->
+                 <!--<button class="carousel-close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></button>-->
+                
+                  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="item active">
+                         <img class="center-block img-responsive" src="img/llum/1.jpg" alt="..."></div>
+                        <div class="item">
+                          <img class="center-block img-responsive" src="img/llum/2.jpg" alt="..."></div>
+                         <div class="item">
+                          <img class="center-block img-responsive" src="img/llum/3.jpg" alt="..."></div>
+                        <div class="item">
+                          <img class="center-block img-responsive" src="img/llum/4.jpg" alt="..."></div>
+                        <div class="item">
+                          <img class="center-block img-responsive" src="img/llum/5.jpg" alt="..."></div>
+                      </div>
+                      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span></a> 
+                      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span></a>
+                  </div>
+<!--
+                  <div class="modal-footer">
+                  </div>
+-->
+            </div>
+          </div>
+        </div>
+    </div>
+    <!--Modal Miralls   -->
+    <div class="container text-center">
+        <div id="miralls" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                  <div id="carousel-example-generic2" class="carousel slide" data-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="item active">
+                         <img class="center-block img-responsive" src="img/espejos/1.jpg" alt="..."></div>
+                        <div class="item">
+                          <img class="center-block img-responsive" src="img/espejos/2.jpg" alt="..."></div>
+                         <div class="item">
+                          <img class="center-block img-responsive" src="img/espejos/3.jpg" alt="..."></div>
+                        <div class="item">
+                          <img class="center-block img-responsive" src="img/espejos/4.jpg" alt="..."></div>
+                      </div>
+                      <a class="left carousel-control" href="#carousel-example-generic2" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                      </a>
+                      <a class="right carousel-control" href="#carousel-example-generic2" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                      </a>
+                 </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!--Modal Temps   -->
+    <div class="container text-center">
+        <div id="temps" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                  <div id="carousel-example-generic3" class="carousel slide" data-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="item active">
+                         <img class="center-block img-responsive" src="img/temps/1.jpg" alt="..."></div>
+                        <div class="item">
+                          <img class="center-block img-responsive" src="img/temps/2.jpg" alt="..."></div>
+                         <div class="item">
+                          <img class="center-block img-responsive" src="img/temps/3.jpg" alt="..."></div>
+                        <div class="item">
+                          <img class="center-block img-responsive" src="img/temps/4.jpg" alt="..."></div>
+                      </div>
+                      <a class="left carousel-control" href="#carousel-example-generic3" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                      </a>
+                      <a class="right carousel-control" href="#carousel-example-generic3" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                      </a>
+                 </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!--Modal   70-->
+    <div class="container text-center">
+        <div id="70" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                  <div id="carousel-example-generic4" class="carousel slide" data-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="item active">
+                         <img class="center-block img-responsive" src="img/70/1.jpg" alt="..."></div>
+                        <div class="item">
+                          <img class="center-block img-responsive" src="img/70/2.jpg" alt="..."></div>
+                         <div class="item">
+                          <img class="center-block img-responsive" src="img/70/3.jpg" alt="..."></div>
+                        <div class="item">
+                          <img class="center-block img-responsive" src="img/70/4.jpg" alt="..."></div>
+                      </div>
+                      <a class="left carousel-control" href="#carousel-example-generic4" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                      </a>
+                      <a class="right carousel-control" href="#carousel-example-generic4" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                      </a>
+                 </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!--Modal Terrasa -->
+    <div class="container text-center">
+        <div id="terrasa" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                  <div id="carousel-example-generic5" class="carousel slide" data-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="item active">
+                         <img class="center-block img-responsive" src="img/terrasa/1.jpg" alt="..."></div>
+                        <div class="item">
+                          <img class="center-block img-responsive" src="img/terrasa/2.jpg" alt="..."></div>
+                        <div class="item">
+                          <img class="center-block img-responsive" src="img/terrasa/3.jpg" alt="..."></div>
+                        <div class="item">
+                          <img class="center-block img-responsive" src="img/terrasa/4.jpg" alt="..."></div>
+                        <div class="item">
+                          <img class="center-block img-responsive" src="img/terrasa/5.jpg" alt="..."></div>
+                      </div>
+                      <a class="left carousel-control" href="#carousel-example-generic5" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                      </a>
+                      <a class="right carousel-control" href="#carousel-example-generic5" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                      </a>
+                 </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!--Modal Productos-->
+    <div class="container text-center">
+        <div id="productos" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content"><div id="carousel-example-generic6" class="carousel slide" data-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="item active">
+                         <img class="center-block img-responsive" src="img/productos/1.jpg" alt="..."></div>
+                        <div class="item">
+                          <img class="center-block img-responsive" src="img/productos/2.jpg" alt="..."></div>
+                         <div class="item">
+                          <img class="center-block img-responsive" src="img/productos/3.jpg" alt="..."></div>
+                        <div class="item">
+                          <img class="center-block img-responsive" src="img/productos/4.jpg" alt="..."></div>
+                        <div class="item">
+                          <img class="center-block img-responsive" src="img/productos/5.jpg" alt="..."></div>
+                        <div class="item">
+                          <img class="center-block img-responsive" src="img/productos/6.jpg" alt="..."></div>
+                        <div class="item">
+                          <img class="center-block img-responsive" src="img/productos/7.jpg" alt="..."></div>
+                        <div class="item">
+                          <img class="center-block img-responsive" src="img/productos/8.jpg" alt="..."></div>
+                        <div class="item">
+                          <img class="center-block img-responsive" src="img/productos/9.jpg" alt="..."></div>
+                        <div class="item">
+                          <img class="center-block img-responsive" src="img/productos/10.jpg" alt="..."></div>
+                      </div>
+                      <a class="left carousel-control" href="#carousel-example-generic6" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                      </a>
+                      <a class="right carousel-control" href="#carousel-example-generic6" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                      </a>
+                 </div>
+              </div>
+          </div>
+        </div>
+    </div>
+<!-- Modals---------------------------------------------------------->
+
+<!-- footer  -->
+    <footer class="footer text-center">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12 col-xs-offset-0  text-center">
+                    <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-12 col-xs-offset-0 text-center">
+                        <img src="img/logo-footer.png" class="img-responsive">
+                    </div>
+                    <div class="col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
+                        <address>Carrer de la Doma, 14, 08530<br>La Garriga, Barcelona</address>
+                        <div class="social-list">
+                            <a href="https://www.instagram.com/sisvuit/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            <a href="https://es-es.facebook.com/SisVuit/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="https://www.tripadvisor.es/Restaurant_Review-g488306-d10892587-Reviews-Sis_Vuit_Lunch_Chill_Out-La_Garriga_Catalonia.html" target="_blank"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
+                            <a href="tel:+936 25 23 84"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                        </div>
+                        <p>© Todos los derechos reservados</p>
+                        <p>Designed by <a class="ejdp" href="#">Nany y Jes&uacute;s</a></p>
+                    </div>
+                </div>
+            </div>
+    </footer>
+<!-- / footer -->     
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery2.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script>
+        //mostramos las categorias cuando las imagenes se hayan cargado
+        $(window).load(function(){
+                $("#preload").css("display","none");
+                $("#cate").css("visibility","visible");
+                $("#cate2").css("visibility","visible");
+        });  
+    </script>
+</body>
+</html>
