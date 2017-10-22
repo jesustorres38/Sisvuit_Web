@@ -5946,7 +5946,20 @@ button.close {
   padding: 15px;
   text-align: right;
   border-top: 1px solid #3f341e;
+  /* text-decoration: none; 
+  float: right;
+  font-size: 18px;
+  font-weight: bold;
+  color:#3f341e; */
 }
+/* .modal-footer #cerrar2{
+  
+  text-decoration: none; 
+  float: right;
+  font-size: 18px;
+  font-weight: bold;
+  color:#3f341e;
+} */
 .modal-footer .btn + .btn {
   margin-bottom: 0;
   margin-left: 5px;
